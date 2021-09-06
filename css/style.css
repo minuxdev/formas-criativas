@@ -1,0 +1,200 @@
+/*  RESETTING */    
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6em;
+    word-spacing: 0.3em;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 0 auto;
+    padding: 1em 4em;
+
+}
+
+/*  GROUPING BY PROPRETIES */
+header, main, footer, img{
+    width: 100%;
+}
+
+/*  by Display type */
+header, #h-menu, .cards, .info, .btn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*  by Size */
+p, a{
+    font-size: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    padding: 0.5em auto;
+    margin: 1em;
+}
+
+/*  HEADER  */
+header{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 4em;
+    font-size: 1.2em;
+}
+
+#logo, #f-logo{
+    background-color: #0000FF;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    color: white;
+    border-radius: 4px;
+}
+
+#h-menu a{
+    margin-left: 1.5em;
+    padding: 0.5em;
+    color: #0000FF;
+}
+
+#sub-header{
+    padding: 2em 4em;
+    background-color: #0000FF;
+    color: white;
+    text-align: center;
+}
+#sub-header h1{
+    padding: 2em;
+    font-size: 3em;
+    text-align: center;
+}
+
+/*  ABOUT US */
+#about-us{
+    padding: 1em;
+    text-align: justify;
+}
+
+#about-us h2{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#about-us button, .btn button{
+    padding: 0.5em 2em;
+    background-color: #0000FF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*  WHAT WE DO */
+.cards{
+    padding: 1em 4em;
+    background-color: #0000FF;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin: 0.4em;
+    color: #fff;
+    padding: 0em;
+}
+
+.card figure{
+    height: 60px;
+    width: 60px;
+    margin: 0.2em auto;
+}
+.card h2{
+    margin: 0.2em;
+    padding: 0.3em;
+}
+.card p{
+    text-align: left;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
+/*  FORM */
+form{
+    padding: 1em 4em;
+}
+
+.info{
+    justify-content: space-between;
+}
+
+.info input{
+    padding: 0.4em 1em;
+    border-radius: 4px;
+    border-color: #0000FF;
+    margin: 1em 0;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+
+#t-area{
+    width: 100%;
+    resize: none;
+    padding: 1.5em;
+    margin: 1em auto;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.btn{
+    align-items: center;
+}
+.btn button{
+    margin-right: 20%;
+    max-height: 4em;
+}
+
+
+footer{
+    padding: 1em 4em;
+    display: block;
+    background-color: #0000FF;
+    color: #fff;
+}
+
+
+#f-conteiner, .f-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-footer a{
+    color: #fff;
+    padding: 0.3em;
+    margin: 0.2em 0.5em;
+}
+
+#f-logo{
+    background-color: #fff;
+    color: #0000FF;
+}
+
+hr{
+    color: #fff;
+    border: 2px solid #fff;
+}
